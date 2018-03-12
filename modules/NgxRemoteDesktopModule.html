@@ -1,0 +1,805 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ngx-remote-desktop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ngx-remote-desktop</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">ngx-remote-desktop</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                                <li class="link">
+                                        <a href="../license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-additional-pages"
+                            >
+                            <span class="fa fa-book"></span>
+                            <span>Additional documentation</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-additional-pages"
+                            >
+                                <li class="link ">
+                                    <a href="../additional-documentation/installation.html" >Installation</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/usage.html" >Usage</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/styling.html" >Styling</a>
+                                </li>
+                                <li class="link ">
+                                    <a href="../additional-documentation/running-the-demo.html" >Running the demo</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/NgxRemoteDesktopModule.html"  data-type="entity-link" class="active" >NgxRemoteDesktopModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/ConnectingMessageComponent.html" >ConnectingMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/DisconnectedMessageComponent.html" >DisconnectedMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/DisplayComponent.html" >DisplayComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/ErrorMessageComponent.html" >ErrorMessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/MessageComponent.html" >MessageComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/RemoteDesktopComponent.html" >RemoteDesktopComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/StatusBarComponent.html" >StatusBarComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/StatusBarItemComponent.html" >StatusBarItemComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/ToolbarItemComponent.html" >ToolbarItemComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/RemoteDesktopManager.html" >RemoteDesktopManager</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+                    <li class="divider"></li>
+                    <li class="copyright">
+                            Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                        <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                            </a>
+                    </li>
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">ngx-remote-desktop</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                                       <li class="link">
+                                               <a href="../license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#additional-pages"
+                   >
+                                   <span class="fa fa-book"></span>
+                                   <span>Additional documentation</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="additional-pages"
+                   >
+                                       <li class="link ">
+                                           <a href="../additional-documentation/installation.html" >Installation</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/usage.html" >Usage</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/styling.html" >Styling</a>
+                                       </li>
+                                       <li class="link ">
+                                           <a href="../additional-documentation/running-the-demo.html" >Running the demo</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/NgxRemoteDesktopModule.html"  data-type="entity-link" class="active" >NgxRemoteDesktopModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/ConnectingMessageComponent.html" >ConnectingMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/DisconnectedMessageComponent.html" >DisconnectedMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/DisplayComponent.html" >DisplayComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/ErrorMessageComponent.html" >ErrorMessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/MessageComponent.html" >MessageComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/RemoteDesktopComponent.html" >RemoteDesktopComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/StatusBarComponent.html" >StatusBarComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/StatusBarItemComponent.html" >StatusBarItemComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/ToolbarItemComponent.html" >ToolbarItemComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/RemoteDesktopManager.html" >RemoteDesktopManager</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                           <li class="copyright">
+                                   Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                                               <img src="..//images/compodoc-vectorise.svg" class="img-responsive">
+                                   </a>
+                           </li>
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content module">
+                   <div class="content-data">
+
+
+
+<ol class="breadcrumb">
+  <li>Modules</li>
+  <li>NgxRemoteDesktopModule</li>
+</ol>
+
+      <div class="text-center module-graph-container">
+          <div id="module-graph-svg">
+              <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: dependencies Pages: 1 -->
+<svg width="1637pt" height="284pt"
+ viewBox="0.00 0.00 1637.00 284.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 280)">
+<title>dependencies</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-280 1633,-280 1633,4 -4,4"/>
+<text text-anchor="start" x="793.5091" y="-42.4" font-family="sans-serif" font-weight="bold" font-size="14.00" fill="#000000">Legend</text>
+<polygon fill="#ffffb3" stroke="transparent" points="580.5,-10 580.5,-30 600.5,-30 600.5,-10 580.5,-10"/>
+<text text-anchor="start" x="604.129" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Declarations</text>
+<polygon fill="#8dd3c7" stroke="transparent" points="693.5,-10 693.5,-30 713.5,-30 713.5,-10 693.5,-10"/>
+<text text-anchor="start" x="717.2251" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Module</text>
+<polygon fill="#80b1d3" stroke="transparent" points="779.5,-10 779.5,-30 799.5,-30 799.5,-10 779.5,-10"/>
+<text text-anchor="start" x="803.2812" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Bootstrap</text>
+<polygon fill="#fdb462" stroke="transparent" points="876.5,-10 876.5,-30 896.5,-30 896.5,-10 876.5,-10"/>
+<text text-anchor="start" x="900.1732" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Providers</text>
+<polygon fill="#fb8072" stroke="transparent" points="972.5,-10 972.5,-30 992.5,-30 992.5,-10 972.5,-10"/>
+<text text-anchor="start" x="996.2258" y="-15.4" font-family="sans-serif" font-size="14.00" fill="#000000"> &#160;Exports</text>
+<g id="clust1" class="cluster">
+<title>cluster_NgxRemoteDesktopModule</title>
+<polygon fill="none" stroke="#000000" stroke-dasharray="1,5" points="8,-70 8,-268 1621,-268 1621,-70 8,-70"/>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_NgxRemoteDesktopModule_declarations</title>
+<polygon fill="none" stroke="#000000" points="16,-78 16,-130 1613,-130 1613,-78 16,-78"/>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_NgxRemoteDesktopModule_exports</title>
+<polygon fill="none" stroke="#000000" points="111,-208 111,-260 1441,-260 1441,-208 111,-208"/>
+</g>
+<!-- RemoteDesktopComponent -->
+<g id="node1" class="node">
+<title>RemoteDesktopComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1604.5364,-122 1433.4636,-122 1433.4636,-86 1604.5364,-86 1604.5364,-122"/>
+<text text-anchor="middle" x="1519" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">RemoteDesktopComponent</text>
+</g>
+<!-- NgxRemoteDesktopModule -->
+<g id="node10" class="node">
+<title>NgxRemoteDesktopModule</title>
+<polygon fill="#8dd3c7" stroke="#000000" points="961.8599,-187 958.8599,-191 937.8599,-191 934.8599,-187 788.1401,-187 788.1401,-151 961.8599,-151 961.8599,-187"/>
+<text text-anchor="middle" x="875" y="-164.8" font-family="Times,serif" font-size="14.00" fill="#000000">NgxRemoteDesktopModule</text>
+</g>
+<!-- RemoteDesktopComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge1" class="edge">
+<title>RemoteDesktopComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M1519,-122.2222C1519,-140.8285 1519,-167 1519,-167 1519,-167 972.1876,-167 972.1876,-167"/>
+<polygon fill="#000000" stroke="#000000" points="972.1876,-163.5001 962.1876,-167 972.1875,-170.5001 972.1876,-163.5001"/>
+</g>
+<!-- ToolbarItemComponent -->
+<g id="node2" class="node">
+<title>ToolbarItemComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1415.8075,-122 1264.1925,-122 1264.1925,-86 1415.8075,-86 1415.8075,-122"/>
+<text text-anchor="middle" x="1340" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ToolbarItemComponent</text>
+</g>
+<!-- ToolbarItemComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge2" class="edge">
+<title>ToolbarItemComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M1377.8268,-122.0336C1377.8268,-139.0597 1377.8268,-162 1377.8268,-162 1377.8268,-162 972.0117,-162 972.0117,-162"/>
+<polygon fill="#000000" stroke="#000000" points="972.0117,-158.5001 962.0117,-162 972.0117,-165.5001 972.0117,-158.5001"/>
+</g>
+<!-- MessageComponent -->
+<g id="node3" class="node">
+<title>MessageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1246.3104,-122 1115.6896,-122 1115.6896,-86 1246.3104,-86 1246.3104,-122"/>
+<text text-anchor="middle" x="1181" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">MessageComponent</text>
+</g>
+<!-- MessageComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge3" class="edge">
+<title>MessageComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M1177.6243,-122.2396C1177.6243,-137.5706 1177.6243,-157 1177.6243,-157 1177.6243,-157 972.1255,-157 972.1255,-157"/>
+<polygon fill="#000000" stroke="#000000" points="972.1255,-153.5001 962.1255,-157 972.1254,-160.5001 972.1255,-153.5001"/>
+</g>
+<!-- DisplayComponent -->
+<g id="node4" class="node">
+<title>DisplayComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="1097.3795,-122 972.6205,-122 972.6205,-86 1097.3795,-86 1097.3795,-122"/>
+<text text-anchor="middle" x="1035" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DisplayComponent</text>
+</g>
+<!-- DisplayComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge4" class="edge">
+<title>DisplayComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M972.4709,-104C964.1513,-104 958.4261,-104 958.4261,-104 958.4261,-104 958.4261,-140.8939 958.4261,-140.8939"/>
+<polygon fill="#000000" stroke="#000000" points="954.9261,-140.8938 958.4261,-150.8939 961.9261,-140.8939 954.9261,-140.8938"/>
+</g>
+<!-- ErrorMessageComponent -->
+<g id="node5" class="node">
+<title>ErrorMessageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="954.8445,-122 795.1555,-122 795.1555,-86 954.8445,-86 954.8445,-122"/>
+<text text-anchor="middle" x="875" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ErrorMessageComponent</text>
+</g>
+<!-- ErrorMessageComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge5" class="edge">
+<title>ErrorMessageComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M875,-122.1061C875,-122.1061 875,-140.991 875,-140.991"/>
+<polygon fill="#000000" stroke="#000000" points="871.5001,-140.9909 875,-150.991 878.5001,-140.991 871.5001,-140.9909"/>
+</g>
+<!-- DisconnectedMessageComponent -->
+<g id="node6" class="node">
+<title>DisconnectedMessageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="777.0014,-122 570.9986,-122 570.9986,-86 777.0014,-86 777.0014,-122"/>
+<text text-anchor="middle" x="674" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">DisconnectedMessageComponent</text>
+</g>
+<!-- DisconnectedMessageComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge6" class="edge">
+<title>DisconnectedMessageComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M777.1571,-104C785.9479,-104 791.574,-104 791.574,-104 791.574,-104 791.574,-140.8939 791.574,-140.8939"/>
+<polygon fill="#000000" stroke="#000000" points="788.074,-140.8938 791.574,-150.8939 795.074,-140.8939 788.074,-140.8938"/>
+</g>
+<!-- ConnectingMessageComponent -->
+<g id="node7" class="node">
+<title>ConnectingMessageComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="552.3571,-122 357.6429,-122 357.6429,-86 552.3571,-86 552.3571,-122"/>
+<text text-anchor="middle" x="455" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">ConnectingMessageComponent</text>
+</g>
+<!-- ConnectingMessageComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge7" class="edge">
+<title>ConnectingMessageComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M505.625,-122.2396C505.625,-137.5706 505.625,-157 505.625,-157 505.625,-157 777.931,-157 777.931,-157"/>
+<polygon fill="#000000" stroke="#000000" points="777.9311,-160.5001 787.931,-157 777.931,-153.5001 777.9311,-160.5001"/>
+</g>
+<!-- StatusBarComponent -->
+<g id="node8" class="node">
+<title>StatusBarComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="339.7674,-122 204.2326,-122 204.2326,-86 339.7674,-86 339.7674,-122"/>
+<text text-anchor="middle" x="272" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">StatusBarComponent</text>
+</g>
+<!-- StatusBarComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge8" class="edge">
+<title>StatusBarComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M320.625,-122.0336C320.625,-139.0597 320.625,-162 320.625,-162 320.625,-162 778.0742,-162 778.0742,-162"/>
+<polygon fill="#000000" stroke="#000000" points="778.0742,-165.5001 788.0742,-162 778.0741,-158.5001 778.0742,-165.5001"/>
+</g>
+<!-- StatusBarItemComponent -->
+<g id="node9" class="node">
+<title>StatusBarItemComponent</title>
+<polygon fill="#ffffb3" stroke="#000000" points="185.9242,-122 24.0758,-122 24.0758,-86 185.9242,-86 185.9242,-122"/>
+<text text-anchor="middle" x="105" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">StatusBarItemComponent</text>
+</g>
+<!-- StatusBarItemComponent&#45;&gt;NgxRemoteDesktopModule -->
+<g id="edge9" class="edge">
+<title>StatusBarItemComponent&#45;&gt;NgxRemoteDesktopModule</title>
+<path fill="none" stroke="#000000" d="M152.125,-122.2222C152.125,-140.8285 152.125,-167 152.125,-167 152.125,-167 777.8044,-167 777.8044,-167"/>
+<polygon fill="#000000" stroke="#000000" points="777.8044,-170.5001 787.8044,-167 777.8043,-163.5001 777.8044,-170.5001"/>
+</g>
+<!-- RemoteDesktopComponent  -->
+<g id="node11" class="node">
+<title>RemoteDesktopComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="1432.5358,-252 1257.4642,-252 1257.4642,-216 1432.5358,-216 1432.5358,-252"/>
+<text text-anchor="middle" x="1345" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">RemoteDesktopComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;RemoteDesktopComponent  -->
+<g id="edge10" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;RemoteDesktopComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M961.9175,-172C1096.5053,-172 1340,-172 1340,-172 1340,-172 1340,-205.7333 1340,-205.7333"/>
+<polygon fill="#000000" stroke="#000000" points="1336.5001,-205.7333 1340,-215.7333 1343.5001,-205.7333 1336.5001,-205.7333"/>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;RemoteDesktopComponent  -->
+<g id="edge17" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;RemoteDesktopComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="1,5" d="M961.9598,-177C1086.8589,-177 1302.1732,-177 1302.1732,-177 1302.1732,-177 1302.1732,-205.9648 1302.1732,-205.9648"/>
+<polygon fill="#000000" stroke="#000000" points="1298.6733,-205.9648 1302.1732,-215.9648 1305.6733,-205.9649 1298.6733,-205.9648"/>
+</g>
+<!-- ToolbarItemComponent  -->
+<g id="node12" class="node">
+<title>ToolbarItemComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="1239.3073,-252 1084.6927,-252 1084.6927,-216 1239.3073,-216 1239.3073,-252"/>
+<text text-anchor="middle" x="1162" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ToolbarItemComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;ToolbarItemComponent  -->
+<g id="edge11" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;ToolbarItemComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M961.9291,-182C1021.9548,-182 1091.0181,-182 1091.0181,-182 1091.0181,-182 1091.0181,-205.8129 1091.0181,-205.8129"/>
+<polygon fill="#000000" stroke="#000000" points="1087.5181,-205.8129 1091.0181,-215.8129 1094.5181,-205.813 1087.5181,-205.8129"/>
+</g>
+<!-- ErrorMessageComponent  -->
+<g id="node13" class="node">
+<title>ErrorMessageComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="1066.8448,-252 903.1552,-252 903.1552,-216 1066.8448,-216 1066.8448,-252"/>
+<text text-anchor="middle" x="985" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ErrorMessageComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;ErrorMessageComponent  -->
+<g id="edge12" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;ErrorMessageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M932.6289,-187.1061C932.6289,-187.1061 932.6289,-205.991 932.6289,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="929.1289,-205.9909 932.6289,-215.991 936.1289,-205.991 929.1289,-205.9909"/>
+</g>
+<!-- DisconnectedMessageComponent  -->
+<g id="node14" class="node">
+<title>DisconnectedMessageComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="885.0008,-252 674.9992,-252 674.9992,-216 885.0008,-216 885.0008,-252"/>
+<text text-anchor="middle" x="780" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">DisconnectedMessageComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;DisconnectedMessageComponent  -->
+<g id="edge13" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;DisconnectedMessageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M836.5353,-187.1061C836.5353,-187.1061 836.5353,-205.991 836.5353,-205.991"/>
+<polygon fill="#000000" stroke="#000000" points="833.0353,-205.9909 836.5353,-215.991 840.0353,-205.991 833.0353,-205.9909"/>
+</g>
+<!-- ConnectingMessageComponent  -->
+<g id="node15" class="node">
+<title>ConnectingMessageComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="657.3573,-252 458.6427,-252 458.6427,-216 657.3573,-216 657.3573,-252"/>
+<text text-anchor="middle" x="558" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">ConnectingMessageComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;ConnectingMessageComponent  -->
+<g id="edge14" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;ConnectingMessageComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M788.0788,-182C712.1433,-182 613.9641,-182 613.9641,-182 613.9641,-182 613.9641,-205.8129 613.9641,-205.8129"/>
+<polygon fill="#000000" stroke="#000000" points="610.4641,-205.8129 613.9641,-215.8129 617.4641,-205.813 610.4641,-205.8129"/>
+</g>
+<!-- StatusBarComponent  -->
+<g id="node16" class="node">
+<title>StatusBarComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="440.7675,-252 301.2325,-252 301.2325,-216 440.7675,-216 440.7675,-252"/>
+<text text-anchor="middle" x="371" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">StatusBarComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;StatusBarComponent  -->
+<g id="edge15" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;StatusBarComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M787.9899,-177C650.6633,-177 399.1026,-177 399.1026,-177 399.1026,-177 399.1026,-205.9648 399.1026,-205.9648"/>
+<polygon fill="#000000" stroke="#000000" points="395.6026,-205.9648 399.1026,-215.9648 402.6026,-205.9649 395.6026,-205.9648"/>
+</g>
+<!-- StatusBarItemComponent  -->
+<g id="node17" class="node">
+<title>StatusBarItemComponent </title>
+<polygon fill="#fb8072" stroke="#000000" points="283.4236,-252 118.5764,-252 118.5764,-216 283.4236,-216 283.4236,-252"/>
+<text text-anchor="middle" x="201" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">StatusBarItemComponent </text>
+</g>
+<!-- NgxRemoteDesktopModule&#45;&gt;StatusBarItemComponent  -->
+<g id="edge16" class="edge">
+<title>NgxRemoteDesktopModule&#45;&gt;StatusBarItemComponent </title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M787.8955,-172C614.7378,-172 243.7891,-172 243.7891,-172 243.7891,-172 243.7891,-205.7333 243.7891,-205.7333"/>
+<polygon fill="#000000" stroke="#000000" points="240.289,-205.7333 243.7891,-215.7333 247.289,-205.7333 240.289,-205.7333"/>
+</g>
+</g>
+</svg>
+
+          </div>
+          <i id="fullscreen" class="fa fa-expand module-graph-fullscreen-btn" aria-hidden="true"></i>
+          <div class="btn-group">
+              <button id="zoom-in" class="btn btn-default btn-sm">Zoom in</button>
+              <button id="reset" class="btn btn-default btn-sm">Reset</button>
+              <button id="zoom-out" class="btn btn-default btn-sm">Zoom out</button>
+          </div>
+      </div>
+      <script src="../js/libs/svg-pan-zoom.min.js"></script>
+      <script src="../js/svg-pan-zoom.controls.js"></script>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/remote-desktop.module.ts</code>
+        </p>
+
+
+        <div class="container-fluid module">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>Declarations<a href="https://angular.io/api/core/NgModule#declarations" target="_blank" title="Official documentation about module declarations"><span class="fa fa-info-circle"></span></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="../components/RemoteDesktopComponent.html">RemoteDesktopComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/ToolbarItemComponent.html">ToolbarItemComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/MessageComponent.html">MessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/DisplayComponent.html">DisplayComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/ErrorMessageComponent.html">ErrorMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/DisconnectedMessageComponent.html">DisconnectedMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/ConnectingMessageComponent.html">ConnectingMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/StatusBarComponent.html">StatusBarComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="../components/StatusBarItemComponent.html">StatusBarItemComponent</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Exports<a href="https://angular.io/api/core/NgModule#exports" target="_blank" title="Official documentation about module exports"><span class="fa fa-info-circle"></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                    <a href="../components/RemoteDesktopComponent.html" >RemoteDesktopComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/ToolbarItemComponent.html" >ToolbarItemComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/ErrorMessageComponent.html" >ErrorMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/DisconnectedMessageComponent.html" >DisconnectedMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/ConnectingMessageComponent.html" >ConnectingMessageComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/StatusBarComponent.html" >StatusBarComponent</a>
+                            </li>
+                            <li class="list-group-item">
+                                    <a href="../components/StatusBarItemComponent.html" >StatusBarItemComponent</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Bootstrap<a href="https://angular.io/docs/ts/latest/api/core/index/NgModule-interface.html#!#bootstrap-anchor" target="_blank"><span class="fa fa-info-circle"></a></h3>
+                    <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="../components/RemoteDesktopComponent.html" >RemoteDesktopComponent</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="source">
+        <pre class="line-numbers"><code class="language-typescript">import { CommonModule } from &#x27;@angular/common&#x27;;
+import { NgModule } from &#x27;@angular/core&#x27;;
+import { BrowserAnimationsModule } from &#x27;@angular/platform-browser/animations&#x27;;
+
+import {
+    ConnectingMessageComponent,
+    DisconnectedMessageComponent,
+    DisplayComponent,
+    ErrorMessageComponent,
+    MessageComponent,
+    RemoteDesktopComponent,
+    StatusBarComponent,
+    StatusBarItemComponent,
+    ToolbarItemComponent,
+} from &#x27;./components&#x27;;
+
+@NgModule({
+    imports: [
+        CommonModule,
+        BrowserAnimationsModule
+    ],
+    declarations: [
+        RemoteDesktopComponent,
+        ToolbarItemComponent,
+        MessageComponent,
+        DisplayComponent,
+        ErrorMessageComponent,
+        DisconnectedMessageComponent,
+        ConnectingMessageComponent,
+        StatusBarComponent,
+        StatusBarItemComponent
+    ],
+    exports: [
+        RemoteDesktopComponent,
+        ToolbarItemComponent,
+        ErrorMessageComponent,
+        DisconnectedMessageComponent,
+        ConnectingMessageComponent,
+        StatusBarComponent,
+        StatusBarItemComponent
+    ],
+    entryComponents: [
+
+    ],
+    bootstrap: [RemoteDesktopComponent]
+})
+export class NgxRemoteDesktopModule {
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>
